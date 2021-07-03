@@ -1,0 +1,1 @@
+766408d HEAD@{0}: clone: from git@github.com:vurdaLUCK/DevOps_online_Kyiv_2021Q3.git
