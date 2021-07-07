@@ -21,3 +21,77 @@ This type of hypervisor runs directly on physical hardware. That makes that hype
 <img src="img/Type_2.jpeg" alt="Type 2 hypervisor">
 <br>
 On other side Type 2 runs in host OS. Uses its drivers and host OS manage calls to CPU, RAM, ROM etc. Any security weakness of host OS may affect to VMs which run into that host. For example, this type used to testing software products. Type 2 is cheaper than Type 1 hypervisor.</p>
+
+
+
+<div><p><b>Table of possible connections.</b></p><table  border="1"><colgroup><col align="left"><col align="center"><col align="center"><col align="center"><col align="center"><col align="center"></colgroup><thead valign="middle"><tr><th align="left"><span class="bold"><strong>Mode</strong></span></th><th align="center"><p>
+                <span class="bold"><strong>VM&#8594;Host</strong></span>
+              </p></th><th align="center"><p>
+                <span class="bold"><strong>VM&#8592;Host</strong></span>
+              </p></th><th align="center"><p>
+                <span class="bold"><strong>VM1&#8596;VM2</strong></span>
+              </p></th><th align="center"><p>
+                <span class="bold"><strong>VM&#8594;Net/LAN</strong></span>
+              </p></th><th align="center"><p>
+                <span class="bold"><strong>VM&#8592;Net/LAN</strong></span>
+              </p></th></tr></thead><tbody valign="middle"><tr><td align="left"><p>
+                Host-only
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                &#8211;
+              </p></td><td align="center"><p>
+                &#8211;
+              </p></td></tr><tr><td align="left"><p>
+                Internal
+              </p></td><td align="center"><p>
+                &#8211;
+              </p></td><td align="center"><p>
+                &#8211;
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                &#8211;
+              </p></td><td align="center"><p>
+                &#8211;
+              </p></td></tr><tr><td align="left"><p>
+                Bridged
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td></tr><tr><td align="left"><p>
+                NAT
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <a href="https://www.virtualbox.org/manual/ch06.html#natforward" title="6.3.1. Configuring Port Forwarding with NAT">Port forward</a>
+              </p></td><td align="center"><p>
+                &#8211;
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <a href="https://www.virtualbox.org/manual/ch06.html#natforward" title="6.3.1. Configuring Port Forwarding with NAT">Port forward</a>
+              </p></td></tr><tr><td align="left"><p>
+                NATservice
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <a href="https://www.virtualbox.org/manual/ch06.html#network_nat_service" title="6.4. Network Address Translation Service">Port forward</a>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <span class="bold"><strong>+</strong></span>
+              </p></td><td align="center"><p>
+                <a href="https://www.virtualbox.org/manual/ch06.html#network_nat_service" title="6.4. Network Address Translation Service">Port forward</a>
+              </p></td></tr></tbody></table></div>
