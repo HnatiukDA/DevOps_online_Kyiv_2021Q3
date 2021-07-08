@@ -1,6 +1,6 @@
 <p>DevOps_online_Kyiv_2021Q3</p>
 
-<h1>Module 1. Task 2.1</h1>
+<h1>Module 2. Task 2.1</h1>
 <h3>PART 1. HYPERVISORS</h3>
 <h4>1. What are the most popular hypervisors for infrastructure virtualization?</h4>
 <p>The most popular hypervisors is <b>Type 1(bare metal)</b> and <b>Type 2(hosted)</b>.
