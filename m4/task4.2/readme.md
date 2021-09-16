@@ -74,22 +74,33 @@ Router(config-router)#<br>
 </details>
 </details>
 
-<h3>Task 3. .</h3>
-<details>
-<summary>Show</summary>
-<p>
+<h3>Task 3. Modeling logical structure of 5 1 floor buildings, 6 PCs in each.</h3>
 <br>
 <img src="img/task4.2_task_3.jpg" alt="Task 3">
 <br>
-
+Setup DHCP servers with different networks per building for each interface. Connected 5 buildings.
 <br>
-</p>
-
+<br>
 <details>
 <summary>Router console</summary>
 <p>
 
-
+Router>en<br>
+Router#conf t<br>
+Enter configuration commands, one per line.  End with CNTL/Z.<br>
+Router(config)#int fa4/0<br>
+Router(config-if)#ip add 192.168.0.1 255.255.255.0<br>
+Router(config-if)#no shut<br>
+Router(config-if)#ex<br>
+Router(config)#ip dhcp pool MY_LAN<br>
+Router(dhcp-config)#network 192.168.0.0 255.255.255.0<br>
+Router(dhcp-config)#def<br>
+Router(dhcp-config)#default-router 192.168.0.1<br>
+Router(dhcp-config)#dn<br>
+Router(dhcp-config)#dns-server 192.168.0.10<br>
+Router(dhcp-config)#ex<br>
+Router(config)#ip dhcp ex<br>
+Router(config)#ip dhcp excluded-address 192.168.0.1 192.168.0.10<br>
+Router(config)#<br>
 </p>
-</details>
 </details>
