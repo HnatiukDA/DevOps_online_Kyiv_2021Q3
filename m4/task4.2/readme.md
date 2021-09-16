@@ -7,7 +7,7 @@
 <br>
 <a href="https://github.com/vurdaLUCK/DevOps_online_Kyiv_2021Q3/tree/main/m4/task4.2/files" title="Files">Cisco Packet Tracer files.</a>
 
-<h3>Task 1. Modeling logical structure of corporate network for 2 buildings with 2 flours, each flour contain 5 computers.</h3>
+<h3>Task 1. Modeling logical structure of corporate network for 2 buildings with 2 floors, each floor contain 5 computers.</h3>
 
 <p>
 <img src="img/task4.2_task_1.jpg" alt="Task 1">
@@ -30,18 +30,29 @@ Router(config-if)#<br>
 </p>
 </details>
 
-<h3>Task 2. Modeling logical structure of corporate network for building with 4 flours with 2 workgroup each by 3 and 5 computers.</h3>
+<h3>Task 2. Modeling logical structure of corporate network for building with 4 floors with 2 workgroup each by 3 and 5 computers.</h3>
+<h4>Variant 1.</h4>
 <p>
 <img src="img/task4.2_task_2.jpg" alt="Task 2">
-Created 12 subnetworks, 8 workgroups 2 per flour, used 4 routers 1 for each flour. On each router set up ospf routing protocol to give access between any computers in building.
+<br>
+Created 8 VLAN 1 for each workgroup, 1 switch for each floor
 <br>
 Netmask: 255.255.255.240
 </p>
 
+
+<h4>Variant 2.</h4>
+<p>
+<img src="img/task4.2_task_2_var2.jpg" alt="Task 2">
+<br>
+Created 12 subnetworks, 8 workgroups 2 per floor, used 4 routers 1 for each floor. On each router set up ospf routing protocol to give access between any computers in building.
+<br>
+Netmask: 255.255.255.240
+</p>
 <details>
 <summary>Show screenshots</summary>
 <p>
-<img src="img/task4.2_task_2(1).jpg" alt="Task 2(1)">
+<img src="img/task4.2_task_2(1)_var2.jpg" alt="Task 2(1)">
 <br>
 Ping to few computers in different subnetworks.
 </p>
