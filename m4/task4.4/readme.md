@@ -5,7 +5,7 @@
 <h1>Module 4. Task 4.4.</h1>
 <h2>Networking Fundamentals</h2>
 <br>
-<a href="https://github.com/vurdaLUCK/DevOps_online_Kyiv_2021Q3/tree/main/m4/task4.3/files" title="Files">Cisco Packet Tracer files.</a>
+<a href="https://github.com/vurdaLUCK/DevOps_online_Kyiv_2021Q3/tree/main/m4/task4.4/files" title="Files">Cisco Packet Tracer files.</a>
 
 <h3>Task 2. Setup DNS servers.</h3>
 
