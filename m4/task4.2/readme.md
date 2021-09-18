@@ -3,7 +3,7 @@
 <img src="img/devops_head.jpg" alt="DevOps">
 
 <h1>Module 4. Task 4.2</h1>
-<h2>NetworkingFundamentals</h2>
+<h2>Networking Fundamentals</h2>
 <br>
 <a href="https://github.com/vurdaLUCK/DevOps_online_Kyiv_2021Q3/tree/main/m4/task4.2/files" title="Files">Cisco Packet Tracer files.</a>
 
