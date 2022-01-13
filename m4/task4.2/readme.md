@@ -5,7 +5,7 @@
 <h1>Module 4. Task 4.2</h1>
 <h2>Networking Fundamentals</h2>
 <br>
-<a href="https://github.com/vurdaLUCK/DevOps_online_Kyiv_2021Q3/tree/main/m4/task4.2/files" title="Files">Cisco Packet Tracer files.</a>
+<a href="https://github.com/HnatiukDA/DevOps_online_Kyiv_2021Q3/tree/main/m4/task4.2/files" title="Files">Cisco Packet Tracer files.</a>
 
 <h3>Task 1. Modeling logical structure of corporate network for 2 buildings with 2 floors, each floor contain 5 computers.</h3>
 
