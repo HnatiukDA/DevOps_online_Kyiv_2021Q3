@@ -4,7 +4,7 @@
 
 <h1>Module 3. Task 3.1</h1>
 <h2>Database Administration</h2>
-<a href="https://github.com/vurdaLUCK/DevOps_online_Kyiv_2021Q3/tree/main/m4/task3.1/files" title="Files">MySQL files.</a>
+<a href="https://github.com/HnatiukDA/DevOps_online_Kyiv_2021Q3/tree/main/m4/task3.1/files" title="Files">MySQL files.</a>
 
 <h3>PART 1</h3>
 <details>
